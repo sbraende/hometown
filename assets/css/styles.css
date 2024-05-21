@@ -1,0 +1,103 @@
+@font-face {
+    font-family: FiraSans;
+    src: url("/assets/fonts/FiraSans-Regular.ttf");
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: FiraSans;
+    src: url("/assets/fonts/FiraSans-Italic.ttf");
+    font-weight: 500;
+    font-style: italic;
+}
+@font-face {
+    font-family: FiraSans;
+    src: url("/assets/fonts/FiraSans-Italic.ttf");
+    font-weight: 500;
+    font-style: bold;
+}
+
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: FiraSans;
+    color: rgb(43, 38, 79);
+}
+
+header{
+    height: 400px;
+    background-image: url("/assets/images/Equinor_Fornebu.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header-text {
+    padding: 5px 10px;
+    color: white;
+    border-radius: 10px;
+}
+
+#header-text-title {
+    margin: 0 auto 0 auto;
+    background: rgb(51, 51, 87);
+}
+
+#header-text-subtitle {
+    margin: 20px auto 0 auto;
+    background: rgb(87, 121, 142);
+    padding: 5px 30px;
+}
+
+main {
+    padding: 40px 0;
+    background: #e0ffff;
+}
+
+#activities {
+    display: flex;
+    text-decoration: none;
+    color: rgb(43, 38, 79);
+}
+
+#activities-heading {
+    margin: 0 0 40px 0;
+}
+
+.activity{
+    margin: 0px 20px;
+}
+
+.activity-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.activity-img:hover {
+    transform: scale(1.2);
+    transition: transform 0.3s ease;
+}
+
+footer {
+    background: white;
+}
+
+#card {
+    display: flex;
+    width: 400px;
+    background: #caeae7;    ;
+    border-radius: 10px;
+    margin: 50px auto;
+    padding: 20px 10px;
+}
+
+.card-element {
+    margin: 0 10px;
+}
+
+#card-img {
+    width: 180px;
+}
