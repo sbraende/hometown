@@ -50,23 +50,13 @@ header{
     padding: 5px 30px;
 }
 
-main {
-    padding: 40px 0;
+.activities {
+    padding: 35px 0 40px 0;
     background: #e0ffff;
 }
 
-#activities {
+.activities-items{
     display: flex;
-    text-decoration: none;
-    color: rgb(43, 38, 79);
-}
-
-#activities-heading {
-    margin: 0 0 40px 0;
-}
-
-.activity{
-    margin: 0px 20px;
 }
 
 .activity-img {
@@ -80,23 +70,23 @@ main {
     transition: transform 0.3s ease;
 }
 
-footer {
+.guide-card {
     background: white;
 }
 
-#card {
-    display: flex;
+.card {
     width: 400px;
-    background: #caeae7;    ;
-    border-radius: 10px;
     margin: 50px auto;
+    display: flex;
     padding: 20px 10px;
-}
-
-.card-element {
-    margin: 0 10px;
+    background: #caeae7;
+    border-radius: 10px;
 }
 
 #card-img {
     width: 180px;
+}
+
+.card-element {
+    margin: 0 10px;
 }
