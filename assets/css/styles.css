@@ -21,7 +21,7 @@ body {
     margin: 0;
     text-align: center;
     font-family: FiraSans;
-    color: rgb(43, 38, 79);
+    color: #2b264f;
 }
 
 header{
@@ -35,13 +35,13 @@ header{
 
 .header-text {
     padding: 5px 10px;
-    color: white;
+    color: #ffffff;
     border-radius: 10px;
 }
 
 #header-text-title {
     margin: 0 auto 0 auto;
-    background: rgb(51, 51, 87);
+    background: #333357;
 }
 
 #header-text-subtitle {
@@ -50,13 +50,17 @@ header{
     padding: 5px 30px;
 }
 
-.activities {
+.activities-section {
     padding: 35px 0 40px 0;
     background: #e0ffff;
 }
 
 .activities-items{
     display: flex;
+}
+
+.activity{
+    margin: 0 20px;
 }
 
 .activity-img {
@@ -70,8 +74,8 @@ header{
     transition: transform 0.3s ease;
 }
 
-.guide-card {
-    background: white;
+.guide-card-section {
+    background: #ffffff;
 }
 
 .card {
